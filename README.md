@@ -1,2 +1,0 @@
-# haredega.github.io
-Testing
