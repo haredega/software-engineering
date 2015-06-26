@@ -13,4 +13,12 @@ public class Problems1to10 {
 			//System.out.println("The sum is:" +sum+".\n");
 			return sum;
 	}
+	
+	public static int fibonacci(int arg){
+		if (arg==0|| arg==1) return 1;
+		else if (arg==2) return 2;
+		else return (fibonacci(arg-1)+fibonacci(arg-2));
+		
+		
+	}
 }
