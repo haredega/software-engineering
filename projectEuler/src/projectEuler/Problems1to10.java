@@ -24,6 +24,7 @@ public class Problems1to10 {
 
 	}
 
+	//calculates the sum of the even VALUED fibonacci numbers under the max value.
 	public static long problem02(long max){
 		int i=1;
 		vet_prob02[0]=1;
@@ -32,17 +33,13 @@ public class Problems1to10 {
 		
 		do{ 
 			if(vet_prob02[i]%2==0) sum += vet_prob02[i];
-			System.out.println("sum:  "+sum+"  i:  "+i);
 			i++;
-			vet_prob02[i]=vet_prob02[i-1]+vet_prob02[i-2];
-			
+			vet_prob02[i]=vet_prob02[i-1]+vet_prob02[i-2];			
 		} while(vet_prob02[i]<max);
 		i--;
-		
-		return vet_prob02[i];
-		
+		return sum; //note that if we get i, we can do fibonacci(i)-1 to obtain this value.
+		//the same can be easily be proved with the series definition.
 	}
-	
 	
 
 
