@@ -24,7 +24,7 @@ public class Problems1to10 {
 
 	}
 
-	//calculates the sum of the even VALUED fibonacci numbers under the max value.
+	//calculates the sum of the even VALUED Fibonacci numbers under the max value.
 	public static long problem02(long max){
 		int i=1;
 		vet_prob02[0]=1;
@@ -41,7 +41,13 @@ public class Problems1to10 {
 		//the same can be easily be proved with the series definition.
 	}
 	
-
+	public static void problem03(long number){
+		/* Instructions for problem 03
+		 The prime factors of 13195 are 5, 7, 13 and 29.
+		 What is the largest prime factor of the number 600851475143 ?*/
+		
+		
+	}
 
 }
 	
