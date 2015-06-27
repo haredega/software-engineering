@@ -25,14 +25,20 @@ public class Problems1to10 {
 	}
 
 	public static long problem02(long max){
-		int i;
+		int i=1;
 		vet_prob02[0]=1;
 		vet_prob02[1]=2;
+		long sum=0;
 		
+		do{ 
+			if(vet_prob02[i]%2==0) sum += vet_prob02[i];
+			System.out.println("sum:  "+sum+"  i:  "+i);
+			i++;
+			vet_prob02[i]=vet_prob02[i-1]+vet_prob02[i-2];
+			
+		} while(vet_prob02[i]<max);
+		i--;
 		
-		for(i=2; vet_prob02[i]< max && i<99 ; i++){
-			vet_prob02[i]=vet_prob02[i-1]+vet_prob02[i-2];			
-		}
 		return vet_prob02[i];
 		
 	}
