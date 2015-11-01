@@ -5,9 +5,22 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 .indicador{ padding:10px;}
-.logo { border-radius:6px; width: 200px; height: 100px; right: 0; left: auto;}
-.footer { border-radius:6px%; margin-top: : 20px;padding:5px; background-color:rgb(92,136,26)}
-.container{background-color: rgb(211,219,151)}
+.logo {  border-radius:6px; width: 200px; height: 100px; right: 0; left: auto;}
+.footer {  border-radius:6px; margin-top: : 20px; padding:5px; background-color:rgb(173,193,135)}
+.capex-opex{padding:10px;}
+.semoveis{padding:10px;}
+.setexto{background-color: rgb(238,238,238)}
+.navbar-default{background-color: rgb(238,238,238); font-size:24px;}
+.jumbotron {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: inherit;
+  }
+ .informes{border-radius:6px; background-color:rgb(92,136,26); color:whitesmoke;}
+  .projetos{}
+  .central{ outline: 1px solid black;}
 
 @page {
   size: A4;
@@ -166,13 +179,6 @@ th {
 }
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 
-.jumbotron {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
-  color: inherit;
-  background-color: #eee;
-}
   .navbar-right {
     float: right !important;
     margin-right: -15px;
@@ -281,7 +287,7 @@ html {
 body {
   margin: 0 auto;
   width: 1024px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
