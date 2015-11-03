@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-.indicador{ padding:10px;}
+.indicador{ padding:10px; align: top;}
 .logo {  border-radius:6px; width: 200px; height: 100px; right: 0; left: auto;}
 .footer {  border-radius:6px; margin-top: : 20px; padding:5px; background-color:rgb(173,193,135)}
 .capex-opex{padding:10px;}
