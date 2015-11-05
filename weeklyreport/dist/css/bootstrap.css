@@ -22,6 +22,9 @@
   .projetos{}
   .central{ outline: 1px solid black;}
   .navbar-brand{font-size:24px;}
+  .topico{text-align: center; font-weight: bold;}
+th{text-align: center; font-weight: bold;}
+td{text-align: center;}
  
   
 html {
