@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang='pt'>
+
+<head>
+<title>Easy-Accounting</title>
+<link href="css/bootstrap.css" rel='stylesheet'>
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Easy-Acc</a>
+        </div>
+        <form class="navbar-form navbar-right">
+            <input type="text" class="form-control" placeholder="Login">
+            <input type="password" class="form-control" placeholder="Password">
+            <input type="submit" class="btn" value="Submit">
+          </form>
+        </div>
+      </nav>
+   
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Tenir le Journal</a></li>
+            <li><a href="#">Nouveau Compte</a></li>
+            <li><a href="#">Export</a></li>
+          </ul>
+          </div>    
+          
+        <div class="col-sm-7 col-sm-offset-3 col-md-8 col-md-offset-2 main">
+             <form class="centered-form">   
+                <!-- Tabela para inserção de movimentação  <legend>Adicionar Movimentação</legend>-->
+                <table>
+                    <thead>
+                           <th> </th>
+                           <th> </th>
+                           <th> </th>
+                           <th>Conta</th>
+                           <th> </th>
+                           <th>Debito</th>
+                           <th> </th>
+                           <th>Credito</th>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td><button name="+">+</button></td>
+                        <td></td>
+                        <td>Para:</td>
+                        <td><input list="contas"  id="mov-acc">
+                                <datalist id="contas">
+                                <option value="711 - Gastos Blabla">
+                                <option value="712 - Gastos Blallii">
+                                <option value="713 - Gastos Baloo">
+                                <option value="71331 - Gastos Balilaloo">
+                                </datalist>
+                        </td>
+                        <td>  </td>
+                        <td><input type="number" placeholder="125,25" step="0.01" class="currency" ></td>
+                        <td>  </td>
+                        <td><input type="number" placeholder="125,25" step="0.01" class="currency" ></td>
+                        </tr>
+                    <tr>
+                        <td><button name="+">+</button></td>
+                        <td></td>
+                        <td>  De: </td>
+                        <td><input list="contas" id="mov-acc" >
+                                <datalist id="contas" >
+                                <option value="711 - Gastos Blabla">
+                                <option value="712 - Gastos Blallii">
+                                <option value="713 - Gastos Baloo">
+                                <option value="71331 - Gastos Balilaloo">
+                                </datalist>
+                        </td>
+                        <td></td>
+                        <td><input type="number" placeholder="125,25" step="0.01" class="currency" ></td>
+                        <td></td>
+                        <td><input type="number" placeholder="125,25" step="0.01" class="currency" ></td>
+                        </tr>
+                    
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><input type="submit" class="btn" value="Submit" id="mov-submit"></td>
+                        </tr>
+                        
+                    </tbody>
+                 </table>  
+                    
+                    
+            </form>
+            
+          </div>
+          
+     <div class="col-sm-3 col-md-2 right-sidebar">
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="#">Favoritos<span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Mercado</a></li>
+            <li><a href="#">Transporte</a></li>
+            <li><a href="#">Mesada</a></li>
+            <li><a href="#">Câmbio</a></li>  
+          </ul>
+          </div> 
+
+          
+          
+          
+          
+          </div>
+      </div>
+    </div>
+        
+        
+        
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="dist/js/app.js"></script>
+</body>
+
+</html>
