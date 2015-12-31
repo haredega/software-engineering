@@ -4,15 +4,28 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-html {
-  font-family: sans-serif;
-  -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
-}
-body {
-  margin: 0;
+
+fieldset > input, fieldset >select { margin-top: 15px; }
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
 }
 
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;;
+      -ms-text-size-adjust: 100%;
+    height: 100%;
+}
+body {
+  margin: 12px;
+    padding-top:50px;
+    height:100%;
+    
+}
 article,
 aside,
 details,
@@ -114,7 +127,7 @@ input,
 optgroup,
 select,
 textarea {
-  margin: 0;
+  margin: px;
   font: inherit;
   color: inherit;
 }
@@ -1588,6 +1601,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  width: 1024px;
 }
 @media (min-width: 768px) {
   .container {
@@ -4304,6 +4318,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   right: 0;
   left: 0;
   z-index: 1030;
+    display: block;
 }
 @media (min-width: 768px) {
   .navbar-fixed-top,
@@ -6799,3 +6814,174 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+.sidebar {
+    position: fixed;
+    display: block;
+}
+
+br {
+    padding: 20px;
+}
+
+form {
+    padding: 20px;
+}
+
+form {
+    align-content: center;
+        
+}
+
+.main {
+position: relative;
+}
+
+form {
+}
+
+.centered-form {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  /*transform: translate(-50%, -50%);*/
+}
+
+#form-submit {
+ position:absolute;
+ left:80%;
+ margin-top: 20px;
+}
+
+#form-end {
+    align-self: left;
+}
+
+.right-sidebar, .right-sidebar * {
+    background-color: darkgrey;
+    color: whitesmoke;
+    
+}
+
+#mov-acc *{
+    width: 1200px;
+}
+
+.acc-name {
+width: 300px;
+border-right: 1px dotted black;
+}
+
+
+
+.currency {
+    width:90px;
+}
+
+
+#mov-submit {
+    margin-top:20px;
+    margin-left:20px;
+}
+
+#login-page >p {
+  
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+
+        
+}
+
+#login-page{
+  margin: auto;
+  position: absolute;
+  top: 50%; left: 50%; bottom: 0; right: 0;
+  transform: translate(-30%,-30%);
+}
+
+h1 {
+    font-size: 35px;
+    
+}
+
+thead {
+  
+}
+td {
+    padding-left: 10px;
+}
+
+#acc-balance-wrapper th {
+    height: 50px;
+    text-align: center;
+    vertical-align: bottom;
+        
+}
+
+#acc-balance *  {
+    border-right: 1px dotted black;    
+}
+
+#acc-balance tr:hover {background-color: #f5f5f5}
+
+#acc-total .acc-name {
+    text-align:right;
+    font-weight: bold; 
+}
+
+
+
+#acc-total {
+    border-top: 1px solid black;
+}
+
+#acc-balance {
+  position: relative;
+  top: 25%;
+  left: 10%;
+}
+
+
+
+#acc-balance-wrapper {
+    border: 2px double black;
+}
+
+#acc-balance-wrapper td {
+    /*min-width: 10px;*/
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#acc-balance-wrapper thead {
+    border-bottom: 1px solid black;
+    background-color: black;
+    color: white;
+}
+
+.footer {
+    background-color: black;
+    height: 60px;
+    }
+
+#wrapper {
+    min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+    width: 1024px !important;
+}
+
+#push, #footer {
+        height: 60px;
+}
+      @media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+
