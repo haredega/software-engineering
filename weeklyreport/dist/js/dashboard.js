@@ -36,4 +36,6 @@
    chart1.draw(data1, options1);
    chart2.draw(data1, options1);
 
+// TODO add up to chart9 to complete the visualization
+
  }

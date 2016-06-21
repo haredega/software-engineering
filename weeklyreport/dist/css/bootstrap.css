@@ -4,6 +4,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+* {font-family: 'Raleway', sans-serif;}
 .indicador{ padding:10px; align: top;}
 .logo {  border-radius:6px; width: 200px; height: 100px; right: 0; left: auto;}
 .footer {  border-radius:6px; margin-top: : 20px; padding:5px; background-color:rgb(173,193,135)}
@@ -25,10 +26,9 @@
   .topico{text-align: center; font-weight: bold;}
 th{text-align: center; font-weight: bold;}
 td{text-align: center;}
- 
-  
+
+
 html {
-  font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -36,7 +36,7 @@ body {
   margin: 0;
   padding-top:20px;
   padding-bottom: 20px;
-  
+
 }
 article,
 aside,
@@ -223,7 +223,7 @@ th {
     //background: transparent !important;
     -webkit-box-shadow: none !important;
             box-shadow: none !important;
-    -webkit-print-color-adjust: exact;  
+    -webkit-print-color-adjust: exact;
   }
   a,
   a:visited {
@@ -6820,4 +6820,3 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
-
