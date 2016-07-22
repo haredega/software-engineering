@@ -65,22 +65,73 @@ body {
     text-align: left;
 }
 
-
-
 .page-header {
-    border-bottom: 2px solid #DFFFFE;
-    color:#DFFFFE;   
+    color:#DFFFFE;
+    margin: 40px 0 4px 0;
+    border-bottom: 1px solid #eee;
 }
-
-
-
-
 
 .container .credit a {
     color:#6AAFCC;
-    
+
 }
 
 #maps-link {
     text-align: center;
+}
+
+.content-tri{
+    background-color: #DFFFFE;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.content-two{
+  background-color: #DFFFFE;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.content-icon{
+  align: center;
+}
+
+.content-text{
+   text-align: center;
+}
+
+.full-text{
+      background-color:  #6BCC9D;
+}
+
+.main {
+      background: url('http://www.insed.com.br/wp-content/uploads/2015/04/INSED-Jovem-M%C3%A9dico.jpg') no-repeat;
+      background-size: cover;
+}
+
+.links{
+  margin-left:20px;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.links *{
+  text-align: left;
+  vertical-align: text-bottom;
+  background-color: #EEE;
+}
+.links * p{
+  margin-top: 4px;
+  height: 26px;
+}
+.links * p a{
+  padding-left: 5px;
+}
+
+#navigation-space{
+  padding-right: 1px;
+}
+
+#navigation-items{
+  padding-left: 1px;
 }
