@@ -84,6 +84,7 @@ body {
     background-color: #DFFFFE;
     padding: 10px;
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 .content-two{
@@ -111,6 +112,11 @@ body {
 
 .links{
   margin-left:20px;
+  margin-right:20px;
+  padding: 2px;
+  border-radius: 5px;
+}
+.links .row{
   padding: 2px;
   border-radius: 5px;
 }
@@ -134,4 +140,70 @@ body {
 
 #navigation-items{
   padding-left: 1px;
+}
+
+.content-centered{
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.table-conv{
+  background-color: #DFFFFE;
+  text-align: center;
+  font-size: 18px;
+}
+
+.table-conv th, td, tr{
+  padding: 0.5em;
+  margin: 0.5em;
+}
+.table-conv td{
+    border:1px solid #ccc;
+
+}
+
+th.rotate {
+  height: 140px;
+  white-space: nowrap;
+}
+
+th.rotate > div {
+  transform:
+    /* Magic Numbers */
+    translate(25px, 51px)
+    /* 45 is really 360 - 45 */
+    rotate(315deg);
+    width: 30px;
+}
+
+th.rotate > div > span {
+  border-bottom: 1px solid #ccc;
+  padding: 5px 10px;
+  text-align: center;
+  width: 160px;
+}
+
+#green{
+  color: green;
+}
+
+.convenios{
+  background-color: #DFFFFE;
+  padding: 10px;
+  border-radius: 5px;
+  margin:10px;
+}
+
+.convenios *{
+  background-color: inherit;
+}
+
+.bio{
+  border-radius:100%;
+  display: block;
+  max-width:230px;
+  max-height:95px;
+  width: auto;
+  height: auto;
 }
